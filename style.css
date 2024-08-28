@@ -17,7 +17,7 @@ a {
 }
 
 img {
-    max-width: 100px;
+    max-width: 100%;
 }
 
 /* GRID GERAL */
@@ -32,8 +32,18 @@ img {
     ;
 }
 
+ /* HEADER */
 .header {
     grid-area: header;
+    background: linear-gradient(135deg, #8844ee, #B07Dfd);
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.logo {
+    max-width: 200px;
 }
 
 .sidenav {
